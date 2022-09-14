@@ -1,48 +1,63 @@
 import "./index.scss";
 import Sidebar from "../Sidebar";
 import AnimatedLetters from "../AnimatedLetters";
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
+import resume from "../../assets/files/resume.pdf";
 import { useEffect, useState, useRef } from "react";
-import Particles from "../Particle/index2"
-
 
 const Contact = () => {
-const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
+  const [letterClass, setLetterClass] = useState("text-animate");
+  const form = useRef();
 
   useEffect(() => {
     setTimeout(() => {
-    return  setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+      return setLetterClass("text-animate-hover");
+    }, 3000);
+  }, []);
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm("service_kjn3k1d", "template_c2ysyoe", form.current, "fZNwDT2v-noymchW3")
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          alert("Message successfully sent!");
+          window.location.reload(false);
         },
         () => {
-          alert('Failed to send the message, please try again')
+          alert("Failed to send the message, please try again");
         }
-      )
-  }
+      );
+  };
 
-    return(
-        <>
-
-        <div className="container contact-page">
-            <div><Sidebar/></div>
+  return (
+    <>
+      <div className="container contact-page">
+        <div>
+          <Sidebar />
+        </div>
+        <div className="spacer layer1-about"></div>
         <div className="text-zone">
-          <h1>
+          <h1 className="animate-contact-text">
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-              idx={15}
+              strArray={[
+                "G",
+                "e",
+                "t",
+                " ",
+                "i",
+                "n",
+                " ",
+                "t",
+                "o",
+                "u",
+                "c",
+                "h",
+                "!",
+              ]}
+              idx={1}
             />
           </h1>
           <div className="contact-form">
@@ -59,14 +74,7 @@ const [letterClass, setLetterClass] = useState('text-animate')
                     required
                   />
                 </li>
-                <li>
-                  <input
-                    placeholder="Subject"
-                    type="text"
-                    name="subject"
-                    required
-                  />
-                </li>
+                <li></li>
                 <li>
                   <textarea
                     placeholder="Message"
@@ -79,10 +87,11 @@ const [letterClass, setLetterClass] = useState('text-animate')
                 </li>
               </ul>
             </form>
+          </div>
         </div>
-        </div>
-        </div>
-        </>
+        <iframe src={resume} frameborder="0" className="resume"></iframe>
+      </div>
+    </>
   );
 };
 

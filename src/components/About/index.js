@@ -50,6 +50,7 @@ const About = () => {
     "n",
     "c",
     "e",
+    "."
   ];
 
   useEffect(() => {

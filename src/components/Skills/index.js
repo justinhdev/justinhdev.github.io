@@ -51,7 +51,7 @@ import "./index.scss"
   };
 
   // speed value
-  static _getMaxSpeed = (name) => ({ slow: 0.5, normal: 1, fast: 7 })[name] || 1;
+  static _getMaxSpeed = (name) => ({ slow: 0.5, normal: 1, fast: 6 })[name] || 1;
 
   static _getInitSpeed = (name) => ({ slow: 16, normal: 32, fast: 80 })[name] || 32;
 

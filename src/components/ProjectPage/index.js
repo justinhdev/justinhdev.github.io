@@ -5,18 +5,48 @@ import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import image1 from "../../assets/images/cyberss.jpg";
-import Particles from "../Particle/index1"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDumpsterFire } from "@fortawesome/free-solid-svg-icons";
+import image2 from "../../assets/images/dumpsterfire.png";
+import Particles from "../Particle/index1";
 
 function ProjectPage() {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const projectArray = ["P", "r", "o", "j", "e", "c", "t", "s"];
+  const projectArray = [
+    "P",
+    "r",
+    "o",
+    "j",
+    "e",
+    "c",
+    "t",
+    "s",
+    " ",
+    "i",
+    "'",
+    "v",
+    "e",
+    " ",
+    "b",
+    "e",
+    "e",
+    "n",
+    " ",
+    "w",
+    "o",
+    "r",
+    "k",
+    "i",
+    "n",
+    "g",
+    " ",
+    "o",
+    "n",
+    "."
+  ];
 
   useEffect(() => {
     setTimeout(() => {
       return setLetterClass("text-animate-hover");
-    }, 2000);
+    }, 4000);
   }, []);
 
   useEffect(() => {
@@ -48,12 +78,12 @@ function ProjectPage() {
           />
         </a>
         <Project
-          img=""
+          img={image2}
           description="A reddit bot coded in python using PRAW API."
         />
-        <Project img="" description="description" />
-        <Project img="" description="More to come!" />
-        <Project img="" description="More to come!" />
+        <Project img={image2} description="description" />
+        <Project img={image2} description="In development!" />
+        <Project img={image2} description="In development!" />
       </div>
       <div className="particle">
         <Particles />

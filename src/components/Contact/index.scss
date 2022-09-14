@@ -1,0 +1,131 @@
+.contact-page {
+  position: fixed;
+  background-color: #a4dee1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.contact-form {
+  position: relative;
+  width: 35%;
+  left: 10%;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      opacity: 0;
+      overflow: hidden;
+      display: block;
+      clear: both;
+      position: relative;
+      animation: fadeInUp 1s 1s;
+      animation-fill-mode: forwards;
+      border-radius: 25px;
+    }
+
+    li.half {
+      width: 49%;
+      margin-left: 2%;
+      float: left;
+      clear: none;
+      border-radius: 50px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    border: 0;
+    background: #f5fffa;
+    height: 50px;
+    font-size: 25px;
+
+    color: #2f4f4f;
+    padding: 0 20px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  textarea {
+    width: 100%;
+    border: 0;
+    background: #f5fffa;
+    height: 50px;
+    font-size: 25px;
+    color: #2f4f4f;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 150px;
+    border-radius: 25px;
+    outline: none;
+  }
+
+  .flat-button {
+    color: #f5fffa;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 2px solid #f5fffa;
+    float: left;
+    border-radius: 4px;
+    background: 0 0;
+    text-transform: uppercase;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    transition: 200ms ease-in;
+    height: 35px;
+
+    &:hover {
+      background: #8fbc8f;
+      color: #333;
+    }
+  }
+}
+.contact-page h1.animate-contact-text {
+  color: #fff;
+  position: relative;
+  font-size: 80px;
+  left: 10%;
+  font-family: "Coolvetica";
+  font-weight: 400;
+  z-index: 2;
+  margin-top: 7%;
+}
+
+.contact-page .spacer {
+  aspect-ratio: 900/600;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.contact-page .layer1-about {
+  background-image: url("./sun-tornado.svg");
+}
+.resume {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  width: 40%;
+  height: 90%;
+  z-index: 4;
+  opacity: 0;
+  animation: fadeInRight 1s 1s;
+  animation-fill-mode: forwards;
+  border-radius: 10px;
+  box-shadow: 4px 4px 12px #000000;
+}
