@@ -1,0 +1,56 @@
+.project-page{
+    position: fixed;
+    background-color: #a4dee1 ;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    
+}
+.project-page .spacer2 {
+    aspect-ratio: 960/300;
+    width: 100%;
+    top: 0px;
+    background-size: cover;
+    position:absolute;
+  }
+  .project-page .spacer3 {
+    aspect-ratio: 960/300;
+    width: 100%;
+    top: 600px;
+    background-size: cover;
+    position:absolute;
+  }
+  .project-page .layer2 {
+    background-image: url('./layer2test.svg');
+  }
+  .project-page .layer3 {
+    background-image: url('./layer3test.svg');
+  }
+  .project-page h1.animate-project-text {
+    color: #fff;
+    position: absolute;
+    font-size: 80px;
+    left: 10%;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    z-index: 2;
+  }
+.project-page .project-container {
+    z-index: 3;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-content: center;
+    margin: 0 auto;
+    gap: 5vh;
+    top: 350px;
+    margin-left: 20vh;
+    margin-right: 10vh;
+  }
+.project-page .particle{
+  z-index: 1;
+}
+a{
+  text-decoration: none;
+}

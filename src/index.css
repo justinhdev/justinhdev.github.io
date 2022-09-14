@@ -1,5 +1,9 @@
 html {
   font-size: 62.5%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
 body {
@@ -8,7 +12,5 @@ body {
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #2F4F4F;
-  overflow: hidden;
   display: block;
 }

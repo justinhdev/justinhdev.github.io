@@ -1,0 +1,33 @@
+.projects-card .card {
+  background-color: #2F4F4F;
+  border-width: 5px;
+  border-radius: 16px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  box-shadow: 8px 8px 20px #000000;
+  width: 30vh;
+  
+
+  .card-image {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .card-description {
+    margin-left: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: "Coolvetica";
+    color:white;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  &:hover {
+    transform: scale(1.20);
+  }
+}

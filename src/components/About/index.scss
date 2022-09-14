@@ -1,10 +1,49 @@
-.content {
-    position: relative;
-    font-family: 'Poppins';  
-    font-weight: 650;
-    font-size: 20px;
-    color: #F8F8FF;
-    position: relative;
-    left: 40%;
+.about-page .animate-wrapper {
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.about-page .text-wrapper {
+    position: absolute;
+    inline-size: 40%;
+    left: 175px;
+    top: 200px;
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    font-family: "Sans Serif";
+    font-weight: 400;
+}
+.about-page .content {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #2F4F4F;
+    border-radius: 300rem;
+    background-size: 50px 50px;
 }
 
+.about-page .spacer {
+    aspect-ratio: 900/500;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.about-page .layer1-about {
+    background-image: url('./layer1-about.svg');
+}
