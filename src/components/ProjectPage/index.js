@@ -78,12 +78,12 @@ function ProjectPage() {
           />
         </a>
         <Project
-          img={image2}
-          description="A reddit bot coded in python using PRAW API."
+          img=""
+          description="In development!"
         />
-        <Project img={image2} description="description" />
-        <Project img={image2} description="In development!" />
-        <Project img={image2} description="In development!" />
+        <Project img="" description="In development!" />
+        <Project img="" description="In development!" />
+        <Project img="" description="In development!" />
       </div>
       <div className="particle">
         <Particles />
