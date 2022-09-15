@@ -14,6 +14,7 @@
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
   z-index: 4;
+  will-change: transform, opacity;
 
   div {
     position: absolute;
