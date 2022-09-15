@@ -154,14 +154,14 @@
       letter-spacing: 3px;
     }
     .resume {
-      position: absolute;
+      position: relative;
       left: 5%;
-      top: 50%;
+      
       width: 90%;
-      height: 70%;
+      height: 100vh;
       z-index: 4;
       opacity: 0;
-      animation: fadeInRight 1s 1s;
+      animation: fadeInUp 1s 1s;
       animation-fill-mode: forwards;
       border-radius: 10px;
       box-shadow: 4px 4px 12px #000000;

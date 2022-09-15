@@ -1,5 +1,5 @@
 .projects-card .card {
-  background-color: #2F4F4F;
+  background-color: #2f4f4f;
   border-width: 5px;
   border-radius: 16px;
   border: 2px solid white;
@@ -9,7 +9,6 @@
   width: 30vh;
   margin: 0;
   padding: 0;
-  
 
   .card-image {
     height: 30vh;
@@ -25,11 +24,11 @@
     margin-bottom: 0;
     font-size: 20px;
     font-family: "Coolvetica";
-    color:white;
+    color: white;
     text-shadow: 2px 2px 4px black;
   }
 
   &:hover {
-    transform: scale(1.20);
+    transform: scale(1.2);
   }
 }

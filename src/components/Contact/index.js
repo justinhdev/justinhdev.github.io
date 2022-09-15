@@ -73,7 +73,6 @@ const Contact = () => {
               <li className="half">
                 <input placeholder="Email" type="email" name="email" required />
               </li>
-              <li></li>
               <li>
                 <textarea
                   placeholder="Message"

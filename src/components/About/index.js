@@ -4,24 +4,22 @@ import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from "react";
 import TagCloud from "../Skills";
 import Particles from "../Particle/index2";
-import Aos from "aos";
 
 const Tags = [
   "JavaScript",
   "CSS",
   "HTML",
   "Vscode",
-  "XD",
   "React",
   "Python",
   "Linux",
   "git",
-  "Flutter",
-  "Dart",
-  "Firebase",
+  "C++",
+  "C#",
+  "Java",
   "SASS",
-  "JSON",
-  "Figma",
+  "Node",
+  "SQL",
 ];
 var w = window.innerWidth;
 if (w < 1200) {
