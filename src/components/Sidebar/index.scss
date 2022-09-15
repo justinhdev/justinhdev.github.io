@@ -46,7 +46,7 @@
       }
 
       &:hover {
-        color: #8FBC8F;
+        color: #8fbc8f;
 
         svg {
           opacity: 0;
@@ -95,7 +95,7 @@
 
     a.active {
       svg {
-        color: #8FBC8F;
+        color: #8fbc8f;
       }
     }
   }
@@ -117,9 +117,73 @@
         line-height: 16px;
 
         &:hover svg {
-          color: #8FBC8F;
+          color: #8fbc8f;
         }
       }
+    }
+  }
+}
+.hamburger-icon, .close-icon {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    background: transparent;
+    position: fixed;
+    height: auto;
+    min-height: auto;
+    z-index: 5;
+    right: 0;
+  
+    nav {
+      display: none;
+    }
+ 
+    nav {
+      width: 100%;
+      height: 100%;
+      background: #181818;
+      top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 5;
+      margin: 0;
+      
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a:after {
+        opacity: 1;
+        position: initial;
+        width: auto;
+        margin-left: 10px;
+      }
+
+      a svg {
+        opacity: 1 !important;
+      }
+
+      &.mobile-show {
+        display: block;
+      }
+    }
+    .hamburger-icon,
+    .close-icon {
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+    ul{
+      position: fixed;
+      width: 10%;
+      top: 88%;
+      right: 87%;
+      background-color: #8fbc8f;
+      border-radius: 25px;
     }
   }
 }

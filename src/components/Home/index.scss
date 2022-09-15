@@ -14,7 +14,7 @@
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
 
-  div{
+  div {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -142,3 +142,67 @@
   background-image: url("./layer1.svg");
 }
 
+@media screen and (max-width: 1200px) {
+  .home-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .spacer,
+    .layer1 {
+      position: fixed;
+      min-height: 100%;
+      min-width: 1200px;
+      margin-right: -200px;
+      height: auto;
+      top: 0;
+      right: 0;
+      z-index: -1;
+    }
+    .stage-cube-cont{
+      position: absolute;
+      width: 0 auto;
+      top: 50%;
+      left: 10%;
+    }
+    .text1 {
+      font-size: 23vw;
+    }
+    .text2 {
+      width: 75%;
+      color:#fff;
+    }
+    .flat-button {
+      color: #fff;
+      border: 1px solid #fff;
+    }
+    .cubespinner {
+      div {
+        width: 200px;
+        height: 200px;
+        font-size: 100px;
+      }
+      .face1 {
+        transform: translateZ(100px);
+      }
+      .face2 {
+        transform: rotateY(90deg) rotate(270deg) translateZ(100px);
+      }
+      .face3 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      }
+      .face4 {
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+      }
+      .face5 {
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+      }
+      .face6 {
+        transform: rotateX(-90deg) translateZ(100px);
+      }
+    }
+  }
+}

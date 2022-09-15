@@ -1,7 +1,6 @@
 html {
   font-size: 62.5%;
-  overflow-x:hidden;
-  overflow-y:hidden;
+  overflow:hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
@@ -13,4 +12,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
 }
