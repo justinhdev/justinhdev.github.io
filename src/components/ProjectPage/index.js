@@ -5,7 +5,7 @@ import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import image1 from "../../assets/images/cyberss.jpg";
-import Particles from "../Particle/index1";
+import Particles from "../Particle/index2";
 
 function ProjectPage() {
   const [letterClass, setLetterClass] = useState("text-animate");

@@ -30,7 +30,7 @@ return (
               "enable": true,
               "zIndex": 1
             },
-            "detectRetina": false,
+            "detectRetina": true,
             "duration": 0,
             "fpsLimit": 60,
             "interactivity": {
