@@ -2,7 +2,8 @@
   width: 90%;
   top: 0;
   padding-top: 17%;
-  position: absolute;
+  position: fixed;
+  z-index: 5;
 }
 
 .home-page .cubespinner {
@@ -13,11 +14,11 @@
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
-  z-index: 4;
-  will-change: rotate, translate;
+  z-index: 5;
+  position: fixed;
 
   div {
-    position: absolute;
+    position: fixed;
     width: 300px;
     height: 300px;
     border: 1px solid #ccc;
@@ -28,7 +29,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px 0px #8fbc8f;
-    z-index: 4;
+    z-index: 5;
   }
 
   .face1 {
@@ -166,7 +167,7 @@
       z-index: -1;
     }
     .stage-cube-cont{
-      position: relative;
+      position: absolute;
       width: 0 auto;
       top: 60%;
       left: 10%;

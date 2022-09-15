@@ -4,7 +4,7 @@
   height: 100%;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 10;
   min-height: 500px;
 
   .logo {
@@ -132,7 +132,7 @@
     position: fixed;
     height: auto;
     min-height: auto;
-    z-index: 5;
+    z-index: 10;
     right: 0;
   
     nav {
@@ -146,7 +146,7 @@
       top: 0;
       left: 0;
       position: fixed;
-      z-index: 5;
+      z-index: 10;
       margin: 0;
       
       a {
