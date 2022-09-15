@@ -45,6 +45,7 @@ function ProjectPage() {
             strArray={workingArray}
             idx={1}/>
         </h1>
+        
       </h1>
 
       <div data-aos="fade-down" className="spacer2 layer3"></div>

@@ -115,7 +115,7 @@
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 4px;
-  font-family: sans-serif;
+  font-family: "Coolvetica";
   text-decoration: none;
   padding: 10px 18px;
   border: 1px solid #8fbc8f;
@@ -156,7 +156,7 @@
       position: fixed;
       min-height: 100%;
       min-width: 1200px;
-      margin-right: -200px;
+      margin-right: -250px;
       height: auto;
       top: 0;
       right: 0;
@@ -165,8 +165,9 @@
     .stage-cube-cont{
       position: absolute;
       width: 0 auto;
-      top: 50%;
+      top: 60%;
       left: 10%;
+      margin: 0;
     }
     .text1 {
       font-size: 23vw;
@@ -181,27 +182,27 @@
     }
     .cubespinner {
       div {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         font-size: 100px;
       }
       .face1 {
-        transform: translateZ(100px);
+        transform: translateZ(77px);
       }
       .face2 {
-        transform: rotateY(90deg) rotate(270deg) translateZ(100px);
+        transform: rotateY(90deg) rotate(270deg) translateZ(77px);
       }
       .face3 {
-        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+        transform: rotateY(90deg) rotateX(90deg) translateZ(77px);
       }
       .face4 {
-        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(77px);
       }
       .face5 {
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(77px);
       }
       .face6 {
-        transform: rotateX(-90deg) translateZ(100px);
+        transform: rotateX(-90deg) translateZ(77px);
       }
     }
   }

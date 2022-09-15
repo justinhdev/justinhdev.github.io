@@ -26,7 +26,7 @@
 .project-page .layer3 {
   background-image: url("./layer3test.svg");
 }
-.project-page h1{
+.project-page h1 {
   margin: 0;
 }
 .project-page h1.animate-project-text {
@@ -40,7 +40,6 @@
   z-index: 2;
   display: inline !important;
   line-height: 100px;
-
 }
 .project-page .project-container {
   z-index: 3;
@@ -53,6 +52,7 @@
   top: 350px;
   margin-left: 20vh;
   margin-right: 10vh;
+  text-align: center;
 }
 .project-page .particle {
   z-index: 1;
@@ -62,6 +62,7 @@ a {
 }
 @media screen and (max-width: 1200px) {
   .project-page {
+    text-align: center;
     overflow-y: scroll;
     overflow-x: hidden;
     .spacer2 {
@@ -69,17 +70,14 @@ a {
       min-height: 75%;
       min-width: 1200px;
       margin-right: -200px;
-      top: 0;
-      right: 0;
       z-index: -2;
     }
     .spacer3 {
       position: fixed;
-      min-height: 25%;
+      min-height: 75%;
       min-width: 1200px;
       margin-right: -200px;
-      bottom: 0;
-      right: 0;
+      top: 50%;
       z-index: -2;
     }
     h1 {
@@ -101,11 +99,15 @@ a {
     .project-container {
       z-index: 3;
       position: relative;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      display: inline-grid;
+      grid-template-columns: none;
+      align-content: center;
       gap: 5vh;
-      margin-left: 7.5vh;
-      padding-bottom: 20px;
+      top: 350px;
+      margin-left: 0;
+      margin-right: 0;
+      padding-bottom: 30px;
+      text-align: center;
     }
   }
 }
