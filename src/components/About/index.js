@@ -108,7 +108,7 @@ const About = () => {
               <li>React</li>
               <li>Node.js</li>
               <li>Javascript</li>
-              <li>scss</li>
+              <li>SASS</li>
               <li>HTML</li>
               <li>css</li>
             </ul>

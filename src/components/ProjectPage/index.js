@@ -10,7 +10,7 @@ import Particles from "../Particle/index2";
 function ProjectPage() {
   const [letterClass, setLetterClass] = useState("text-animate");
   const projectArray = ["P", "r", "o", "j", "e", "c", "t", "s"];
-  const iveArray = ["i", "'", "v", "e", " ", "b", "e", "e", "n"];
+  const iveArray = ["I", "'", "v", "e", " ", "b", "e", "e", "n"];
   const workingArray = ["w", "o", "r", "k", "i", "n", "g", " ", "o", "n", "."];
 
   useEffect(() => {
