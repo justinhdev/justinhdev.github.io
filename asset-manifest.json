@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.7f6371ba.css",
-    "main.js": "/portfolio-website/static/js/main.5fff197b.js",
+    "main.js": "/portfolio-website/static/js/main.e7b0052b.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/cyberss.jpg": "/portfolio-website/static/media/cyberss.aa305cb7a83ea1ccf70f.jpg",
-    "static/media/resume.pdf": "/portfolio-website/static/media/resume.f44e22ca59421bda0c97.pdf",
     "static/media/helvetica-neu.ttf": "/portfolio-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/portfolio-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
@@ -15,11 +14,11 @@
     "static/media/layer3test.svg": "/portfolio-website/static/media/layer3test.b04f66318a09ced079e9.svg",
     "static/media/layer2test.svg": "/portfolio-website/static/media/layer2test.08b674a10889a841913f.svg",
     "main.7f6371ba.css.map": "/portfolio-website/static/css/main.7f6371ba.css.map",
-    "main.5fff197b.js.map": "/portfolio-website/static/js/main.5fff197b.js.map",
+    "main.e7b0052b.js.map": "/portfolio-website/static/js/main.e7b0052b.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f6371ba.css",
-    "static/js/main.5fff197b.js"
+    "static/js/main.e7b0052b.js"
   ]
 }
