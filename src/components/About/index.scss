@@ -74,6 +74,8 @@
     .text-zone {
       padding: 0px;
       margin: 0px;
+      height: 100%;
+      width: 100%;
       .animate-wrapper {
         position: absolute;
         top: 3%;
@@ -85,11 +87,13 @@
         letter-spacing: 3px;
         line-height: 8px;
         text-align: center;
+        padding-bottom: 200px;
       }
     }
     .text-wrapper {
       position: absolute;
-      top: 17%;
+      padding-top: 20%;
+      top: 6%;
       width: 65%;
       left: 6%;
       color: #fff;
@@ -98,6 +102,14 @@
       font-family: "Coolvetica";
       font-weight: 400;
       letter-spacing: 3px;
+      ul{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 0;
+        margin-bottom: 0;
+        padding: 0;
+        
+      }
       .first-list {
         display: inline-block;
         width: calc(50% - 1px);

@@ -16,10 +16,12 @@ const Tags = [
   "git",
   "C++",
   "C#",
-  "Java",
+  "Express",
   "SASS",
-  "Node",
+  "Node.js",
   "SQL",
+  "Flask",
+  "SQLAlchemy"
 ];
 var w = window.innerWidth;
 if (w < 1200) {
@@ -94,23 +96,23 @@ const About = () => {
             Software engineer in Austin, TX. Proficient in:
             <ul>
               <li>C++</li>
-              <li>Java</li>
+              <li>JavaScript</li>
               <li>Python</li>
               <li>SQL</li>
               <li>Git</li>
-              <li>Data Structures & Algorithm's</li>
             </ul>
-            
           </p>
           <p className="second-list">
             Also familiar with full-stack web development:
             <ul>
               <li>React</li>
               <li>Node.js</li>
-              <li>Javascript</li>
-              <li>SASS</li>
+              <li>Express</li>
+              <li>Flask</li>
+              <li>SQLAlchemy</li>
               <li>HTML</li>
-              <li>css</li>
+              <li>CSS</li>
+              <li>Sass</li>
             </ul>
           </p>
         </div>

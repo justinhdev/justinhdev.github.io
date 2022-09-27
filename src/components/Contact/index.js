@@ -2,7 +2,7 @@ import "./index.scss";
 import Sidebar from "../Sidebar";
 import AnimatedLetters from "../AnimatedLetters";
 import emailjs from "@emailjs/browser";
-//import resume from "../../assets/files/resume.pdf";
+import resume from "../../assets/files/resume.pdf";
 import { useEffect, useState, useRef } from "react";
 
 const Contact = () => {
@@ -87,7 +87,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <iframe src={''} frameborder="0" className="resume"></iframe>
+        <iframe src={resume} frameborder="0" className="resume"></iframe>
       </div>
     </>
   );
