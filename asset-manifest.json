@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1f809acd.css",
-    "main.js": "/static/js/main.bda204a2.js",
+    "main.js": "/static/js/main.55c4e8f3.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/resume.pdf": "/static/media/resume.afa7356ff027e7d36cf5.pdf",
     "static/media/cyberss.jpg": "/static/media/cyberss.aa305cb7a83ea1ccf70f.jpg",
+    "static/media/webpong.png": "/static/media/webpong.06f08d454b2d7f0a584f.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/noteapp.png": "/static/media/noteapp.a0c060c13f8d93645342.png",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/layer1.svg": "/static/media/layer1.c683b70ae12c13d9e4f5.svg",
     "static/media/sun-tornado.svg": "/static/media/sun-tornado.6c2435133f1ab5e283bc.svg",
@@ -15,11 +17,11 @@
     "static/media/layer2test.svg": "/static/media/layer2test.08b674a10889a841913f.svg",
     "index.html": "/index.html",
     "main.1f809acd.css.map": "/static/css/main.1f809acd.css.map",
-    "main.bda204a2.js.map": "/static/js/main.bda204a2.js.map",
+    "main.55c4e8f3.js.map": "/static/js/main.55c4e8f3.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f809acd.css",
-    "static/js/main.bda204a2.js"
+    "static/js/main.55c4e8f3.js"
   ]
 }
