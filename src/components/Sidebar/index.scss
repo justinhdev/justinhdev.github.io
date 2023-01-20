@@ -126,7 +126,7 @@
 .hamburger-icon, .close-icon {
   display: none;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .nav-bar {
     background: transparent;
     position: fixed;
@@ -174,15 +174,20 @@
     .close-icon {
       display: block;
       position: absolute;
-      top: 15px;
-      right: 15px;
+      color: white;
+      background-color: darkslategray;
+      padding: 5px;
+      border-radius: 5px;
+      top: 25px;
+      right: 25px;
+      height: 40px;
     }
     ul{
       position: fixed;
       width: 40px;
       height: 90px;
       top: 83%;
-      right: 87%;
+      right: 83%;
       background-color: #8fbc8f;
       border-radius: 25px;
     }

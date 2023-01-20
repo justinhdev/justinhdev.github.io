@@ -15,11 +15,9 @@ import { useState } from "react";
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
-
-
   return (
     <div className="nav-bar">
-      <nav className={showNav ? 'mobile-show' : ''}>
+      <nav className={showNav ? "mobile-show" : ""}>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
@@ -47,11 +45,21 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} color="#4d4d4e" size="3x" className="close-icon" />
+        <FontAwesomeIcon
+          onClick={() => setShowNav(false)}
+          icon={faClose}
+          color="#4d4d4e"
+          size="3x"
+          className="close-icon"
+        />
       </nav>
       <ul>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/justin-lee-hancock">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/justin-lee-hancock"
+          >
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li>
@@ -66,7 +74,11 @@ const Sidebar = () => {
         </li>
       </ul>
       <FontAwesomeIcon
-        onClick={() => setShowNav(true)} icon={faBars} color="#4d4d4e" size="3x" className='hamburger-icon'
+        onClick={() => setShowNav(true)}
+        icon={faBars}
+        color="#4d4d4e"
+        size="3x"
+        className="hamburger-icon"
       />
     </div>
   );

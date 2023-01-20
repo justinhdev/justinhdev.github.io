@@ -31,6 +31,8 @@ const Home = () => {
 
   return (
     <>
+      
+      <div data-aos="fade-left" className="layer1"></div>
       <div className="home-page">
         <Sidebar />
         <div className="text-zone">
@@ -52,7 +54,6 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <div data-aos="fade-left" className="spacer layer1"></div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
