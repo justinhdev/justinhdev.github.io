@@ -90,10 +90,6 @@
   transform: translateY(-50%);
   width: 40%;
   max-height: 90%;
-  /*height: 50px;
-  width: 50px;
-  border: 5px solid red;
-  box-sizing:border-box;*/
 }
 
 .home-page .text1 {
@@ -154,7 +150,7 @@
 
 
 @media only screen and (max-width: 900px) {
-  .home-page {
+  .layer1 {
     .text-zone {
       position: initial;
       width: 100%;

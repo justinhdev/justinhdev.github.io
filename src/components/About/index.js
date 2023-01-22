@@ -72,7 +72,7 @@ const About = () => {
       <div>
         <Sidebar />
       </div>
-      <div className="spacer layer1-about"></div>
+      <div className="layer1"></div>
       <div className="content"></div>
       <div className="text-zone">
         <div className="animate-wrapper">
@@ -99,20 +99,23 @@ const About = () => {
               <li>JavaScript</li>
               <li>Python</li>
               <li>SQL</li>
+              <li>Linux</li>
               <li>Git</li>
+              <li>Github</li>
             </ul>
           </p>
           <p className="second-list">
-            Also familiar with full-stack web development:
+            Familiar with:
             <ul>
               <li>React</li>
               <li>Node.js</li>
-              <li>Express</li>
-              <li>Flask</li>
-              <li>SQLAlchemy</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Sass</li>
+              <li>Microsoft SQL Server</li>
+              <li>SQLAlchemy</li>
+              <li>Flask</li>
+              <li>Express</li>
             </ul>
           </p>
         </div>

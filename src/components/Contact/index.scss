@@ -1,10 +1,7 @@
 .contact-page {
   position: fixed;
-  background-color: #a4dee1;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
 }
 .contact-form {
   position: relative;
@@ -113,7 +110,7 @@
   position: absolute;
 }
 
-.contact-page .layer1-about {
+.contact-page .layer1 {
   background-image: url("./sun-tornado.svg");
 }
 .resume {

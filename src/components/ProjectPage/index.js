@@ -53,8 +53,8 @@ function ProjectPage() {
         </h1>
       </h1>
 
-      <div data-aos="fade-down" className="spacer2 layer3"></div>
-      <div data-aos="fade-up" className="spacer3 layer2"></div>
+      <div data-aos="fade-down" className="layer3"></div>
+      <div data-aos="fade-up" className="layer2"></div>
       <div data-aos="fade-in" className="project-container">
         <a
           target="_blank"

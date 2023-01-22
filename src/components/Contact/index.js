@@ -42,7 +42,7 @@ const Contact = () => {
         <div>
           <Sidebar />
         </div>
-        <div className="spacer layer1-about"></div>
+        <div className="layer1"></div>
         <h1 className="animate-contact-text">
           <AnimatedLetters
             letterClass={letterClass}

@@ -13,7 +13,7 @@
 .about-page .text-wrapper {
   position: absolute;
   inline-size: 40%;
-  left: 175px;
+  left: 160px;
   top: 240px;
   color: #fff;
   font-size: 25px;
@@ -34,21 +34,19 @@
   letter-spacing: 1px;
   background-color: #2f4f4f;
   border-radius: 300rem;
-  background-size: 50px 50px;
 }
 
-.about-page .spacer {
-  aspect-ratio: 900/500;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+.about-page .layer1 {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
   background-size: cover;
-  padding: 0;
-}
-
-.about-page .layer1-about {
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -100;
   background-image: url("./layer1-about.svg");
 }
+
 @media screen and (max-width: 900px) {
   .about-page {
     position: absolute;
@@ -56,21 +54,6 @@
     overflow-x: hidden;
     height: 100%;
     width: 100%;
-    .spacer,
-    .layer1-about {
-      position: fixed;
-      min-height: 100%;
-      min-width: 1200px;
-      margin-right: -200px;
-      top: 0;
-      right: 0;
-      z-index: -2;
-    }
-    .content {
-      margin-top: 88%;
-      z-index: -2;
-      left: 0%;
-    }
     .text-zone {
       padding: 0px;
       margin: 0px;
@@ -128,5 +111,10 @@
         padding: 5%;
       }
     }
+  }
+}
+@media screen and (max-width: 1000px) {
+.about-page .content {
+  display: none;
   }
 }
